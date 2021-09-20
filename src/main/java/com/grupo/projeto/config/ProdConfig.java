@@ -11,11 +11,12 @@ import com.grupo.projeto.service.DBService;
 @Profile("prod")
 public class ProdConfig {
 
-	@Autowired
+	//Atenção essa classe só devera ser realizada apenas uma vez
+	/*@Autowired
 	private DBService service;
 	
 	@Bean
 	public void instanciaDB() {	
 		this.service.instanceDB();
-	}
+	}*/
 }
